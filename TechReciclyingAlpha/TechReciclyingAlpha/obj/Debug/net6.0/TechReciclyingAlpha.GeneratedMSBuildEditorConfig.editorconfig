@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TechReciclyingAlpha
+build_property.RootNamespace = TechReciclyingAlpha
+build_property.ProjectDir = C:\TCC\TechReciclying\TechReciclyingAlpha\TechReciclyingAlpha\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\TCC\TechReciclying\TechReciclyingAlpha\TechReciclyingAlpha
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Cadastro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/CardsEco/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNFY29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Dropdown/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJvcGRvd25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Ecopontos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvcG9udG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Ecopontos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvcG9udG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Ecopontos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvcG9udG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Ecopontos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvcG9udG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Ecopontos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWNvcG9udG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/PerfilUsu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsVXN1XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/PerfilUsu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyZmlsVXN1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Restrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdHJpdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Shared/Components/Menu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gd5p0n8chp
+
+[C:/TCC/TechReciclying/TechReciclyingAlpha/TechReciclyingAlpha/Views/Shared/_LayoutDeslogada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZXNsb2dhZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bps2kjthyo

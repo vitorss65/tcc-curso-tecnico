@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TechReciclyingAlpha.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    @*<div class="container1">
+        <div class="profile-box">
+            <img src="~/images/LoidForger.jpg" class="profile-pic"> 
+            <h3>@Model.Nome)</h3>
+            <p>@Model.Descricao)</p>
+            <a asp-action="Edit" asp-route-id="@Model.Id" type="button" class="button1">Editar</a>  
+        </div>
+    </div>*@
+
+@foreach (var item in Model) {
+
+    <div class="container1">
+        <div class="profile-box">
+            <img src="~/images/perfil4.jpg" class="profile-pic"> 
+            <h3>@Html.DisplayFor(modelItem => item.Nome)</h3>
+            <p>@Html.DisplayFor(modelItem => item.Descricao)</p>
+            <a asp-action="Edit" asp-route-id="@item.Id" type="button" class="button1" style="color: #333333; ">Editar</a>  
+        </div>
+    </div>
+
+}
+
+<script type="text/javascript">
+    $('.profile-box').hover(
+        function()
+        {
+            $(this).animate({
+                marginTop: "-=1%",
+                marginBottom: "+=1%",
+            }, 200)
+        },
+    function()
+        {
+            $(this).animate({
+                marginTop: "+=1%",
+                marginBottom: "-=1%",
+            })
+        }
+    )
+
+</script>
+
+<style>
+    .card:hover {
+        box-shadow: -1px 9px 40px -12px #808080;
+    }
+</style>

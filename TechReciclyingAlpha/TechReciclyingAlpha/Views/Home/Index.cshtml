@@ -1,0 +1,179 @@
+﻿@{
+    ViewData["Title"] = "Início";
+}
+
+<div class="container2" style="margin-top: 50px;">
+        <div class="profile-box1" style="width: 1600px; box-shadow: 0 5px 10px black;">
+
+<div class="text-center">
+
+    <h1 style=" color: white; ">
+        <img src=~/images/pin1.png style=" max-width: 60px; max-height: 50px; width: auto; height: auto; margin-right: 5px; margin-top: -6px; margin-right: 50px;  "/>
+        Encontre o ponto de descarte mais perto de você!
+        <img src=~/images/pin1.png style=" max-width: 60px; max-height:50px; width: auto; height: auto; margin-right: 5px; margin-top: -6px; margin-left: 50px; "/></h1> 
+   
+    <style>
+    #map {
+    height: 600px;
+    border-radius: 0.5%;
+    }
+</style>
+
+<br />
+<br />
+ 
+<div id="map" style=" box-shadow: 0 5px 10px white; ">
+<script>
+
+    var map;
+    function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: -23.547387815975142, lng: -46.66414902461328},
+        zoom: 12,
+        mapId: 'eb4258d5fc6277db'
+        });
+ 
+        
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5365228, -46.7286353),
+            title:"ODC:  R. Constantino Fraga, 216 - Vila Leopoldina, São Paulo - SP, 05318-050" 
+        });
+        marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5210406, -46.5924615),
+            title:"Rápido Sucata:  R. Itaúna, 779 / 789 - Vila Maria, São Paulo - SP, 02111-031" //Rápido Sucata
+        });
+        marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5395547, -46.5325457), 
+            title:"P&F Gerenciamento de Resíduos Tecnológicos:  R. Profa. Júlia Soares Cora, 49 - Vila Matilde, São Paulo - SP, 03515-005" //P&F Gerenciamento de Resíduos Tecnológicos
+        });
+        marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5315865, -46.5599483),
+            title:"Eco Computadores - Reciclagem de Lixo Eletrônico:  Av. Celso Garcia, 5505 - Tatuapé, São Paulo - SP, 03063-000" //Eco Computadores - Reciclagem de Lixo Eletrônico
+        });
+        marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.4994794, -46.637766),
+            title:"Ponto De Coleta Lixo Electronico:  R. Conselheiro Saraiva, 688 - Santana, São Paulo - SP, 02037-021" //Ponto De Coleta Lixo Electronico
+        });
+        marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5507135, -46.6529443),
+            title:"Colete Ja seu Lixo Eletrônico:  R. Quintino Bocaiúva, 242 - Sé, São Paulo - SP, 01004-010" //Colete Ja seu Lixo Eletrônico
+        });
+        marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.563474, -46.6589307),
+            title:"GREEN Eletron:  7 1313, Av. Paulista - Bela Vista, São Paulo, 01311-300" //GREEN Eletron
+        });
+        marker.setMap(map); 
+
+         marker.setMap(map);
+ 
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5731856, -46.7242309),
+            title:"Descarte de Lixo Eletrônico:  Av. Corifeu de Azevedo Marques, 1003 - Butantã, São Paulo - SP, 05581-000" //Descarte de Lixo Eletrônico
+        });
+        marker.setMap(map); 
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5219931,-46.5888433),
+            title: "GTech Soluções Ambientais:  R. Eli, 549 - Vila Maria Baixa, São Paulo - SP, 02114-000" //GTech Soluções Ambientais
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5144949, -46.5759884),
+            title: "Ecobraz Emigre:  R. Dona Maria Quedas, 230 - Jardim Andarai, São Paulo - SP, 02175-010" //Ecobraz Emigre
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.513118, -46.7962025),
+            title: "Coopermiti - Gestão de Resíduos:  R. João Rudge, 366 - Casa Verde Baixa, São Paulo - SP, 02513-020" //Coopermiti - Gestão de Resíduos
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5341544, -46.6995717),
+            title: "Benjamin Descarte de Lixo Eletrônico Logística:  R. Antônio de Godói, 33 - 420 - Centro Histórico de São Paulo, São Paulo - SP, 01034-001" //Benjamin Descarte de Lixo Eletrônico Logística
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5341544, -46.6995717),
+            title: "Benjamin Descarte de Lixo Eletrônico Logística Reversa:  R. Benjamin Constant, 170 b - Sé, São Paulo - SP, 01005-000" //Benjamin Descarte de Lixo Eletrônico Logística Reversa
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5612326, -46.5668052),
+            title: "SOS Lixo Eletrônico:  Av. Ver. Abel Ferreira, 1501 - Vila Reg. Feijó, São Paulo - SP, 03340-010" //SOS Lixo Eletrônico - Descarte Lixo Eletrônico - Coleta Lixo Eletrônico
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5364841, -46.640385),
+            title: "Nova Recicle:  R. do Triunfo, 195 - Centro Histórico de São Paulo, São Paulo - SP, 01212-010" //Nova Recicle
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.4754104, -46.593797),
+            title: "Recieletro - Reciclagem de eletrônicos:  R. Cometa, 156 - Vila Nivi, São Paulo - SP, 02255-090" //Recieletro - Reciclagem de eletrônicos
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5673303, -46.7024526),
+            title: "Coleta de Lixo Eletrônico SP:  Rua Oswaldo Arouca, 288 - Vila Formosa, São Paulo - SP, 03363-000" //Coleta de Lixo Eletrônico SP | Sucata Digital descarte correto São Paulo
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.4500531, -46.5190218),
+            title: "Carbone:  Av. Gilberto Dini, 178 - Jardim Bom Clima, Guarulhos - SP, 07122-210" //Carbone - Descarte de Lixo Eletrônico
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5364134, -46.6407076),
+            title: "Geraldo descarte de eletrônico:  R. dos Gusmões, 140 - Santa Ifigênia, São Paulo - SP, 01212-900" //Geraldo descarte de eletrônico
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5478078, -46.550346),
+            title: "Global Reciclagem:  Rua Mariano de Sousa, 331 - Chácara Santo Antônio (Zona Leste), São Paulo - SP, 03411-090" //Global Reciclagem
+        });
+        marker.setMap(map);
+
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(-23.5144949, -46.5759884),
+            title: "Recicla Eletro:  R. Dona Maria Quedas, 230 - Jardim Andarai, São Paulo - SP, 02175-010" //Recicla Eletro
+        });
+        marker.setMap(map);
+    };
+
+
+</script>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4dkj21O12B8kClOn8-hO8ZEOOmrA4ZW4&map_ids=eb4258d5fc6277db&callback=initMap" async defer></script>
+
+</div>
+</div>
+</div>
+
+@*//AIzaSyD19cWBBKMeViKfLcBe6L126U5iZjYqzJQ*@
+
+
+

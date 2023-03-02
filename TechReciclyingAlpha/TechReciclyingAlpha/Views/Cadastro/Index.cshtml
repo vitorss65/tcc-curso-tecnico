@@ -1,0 +1,91 @@
+﻿@using TechReciclyingAlpha.Enums
+@model TechReciclyingAlpha.Models.Usuario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+    @if(TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+        @TempData["MensagemSucesso"]
+    </div>
+}
+
+@if(TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">X</button>
+        @TempData["MensagemErro"]; 
+    </div>
+}
+
+<div class="container2" style="margin-top: 50px;">
+        <div class="profile-box1" style="width: 1000px;">
+
+<h1>Faça seu cadastro</h1>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" type="text" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Login" class="control-label"></label>
+                <input asp-for="Login" type="text" class="form-control" />
+                <span asp-validation-for="Login" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" type="password" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span> 
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" type="email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <br />
+
+            @*<div class="form-group">
+                <label asp-for="Perfil" class="control-label"></label>
+                <select asp-validation-for="Perfil" class="form-control">
+                    <option value="0">Selecione</option>
+                    <option value="@PerfilEnum.Admin">Administrador</option>
+                    <option value="@PerfilEnum.Padrao">Padrão</option> 
+                </select>
+            </div>*@
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" style="background-color: #333333; "/>
+            </div>
+        </form>
+    </div>
+</div>
+ </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

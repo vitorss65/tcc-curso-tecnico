@@ -1,0 +1,62 @@
+﻿@model Usuario
+
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Mapa</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="CardsEco" asp-action="Index" style="margin-left: 30px">Ecopontos</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="PerfilUsu" asp-action="Index" style="margin-left: 30px">Perfil</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-area="" asp-controller="Cadastro" asp-action="Index" style="margin-left: 30px">Cadastre-se</a>
+        </li>
+
+        @*<li class="nav-item dropdown" style="margin-left: 30px">
+            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #333333; ">
+                Admin
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                @if (Model.Perfil == TechReciclyingAlpha.Enums.PerfilEnum.Admin)
+                {
+
+                    <li class="dropdown-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Gerenciamento usuários</a>
+                    </li>
+
+                }
+                <li class="dropdown-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Ecopontos" asp-action="Index">Gerenciamento ecopontos</a>
+                </li>
+            </ul>
+        </li>*@
+
+        <li class="nav-item">
+            <a class="nav-link text-secondary" style="margin-left: 442px">Olá, @Model.Nome</a>
+        </li>
+
+        @if (Model.Perfil == TechReciclyingAlpha.Enums.PerfilEnum.Admin)
+        {
+            <li class="nav-item">
+                <a class="nav-link text-white" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuários</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" asp-area="" asp-controller="Ecopontos" asp-action="Index">Ecopontos</a>
+            </li>
+        }
+
+
+    </ul>
+</div>

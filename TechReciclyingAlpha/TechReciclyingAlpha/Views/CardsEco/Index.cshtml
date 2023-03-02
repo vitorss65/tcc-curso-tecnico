@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TechReciclyingAlpha.Models.Ecoponto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container3">
+
+
+@*<form asp-controller="CardsEco" asp-action="Index"> 
+    <div class="input-group flex-nowrap">
+        <input type="text" class="form-control" placeholder="Busque ecopontos" aria-label="Username" aria-describedby="addon-wrapping">
+        <div class="input-group-append">
+            <p>
+                <span class="input-group-text red lighten-3" id="basic-text1">
+                    <i class="bi bi-search"></i>
+                </span>
+            </p>
+        </div>
+    </div>
+</form>
+
+<br />*@
+
+
+
+<div class="profile-box3">
+    @*<div class="card" style="width: 18rem;">
+        <div class="card-header">@Html.DisplayNameFor(model => model.Nome)</div>
+        <img src="@Html.DisplayNameFor(model => model.Foto)" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">@Html.DisplayNameFor(model => model.Descricao)</p>
+            <a href="@Html.DisplayNameFor(model => model.WebSite)" class="btn btn-primary">Acesse o site</a>
+        </div>
+        <div class="card-footer">@Html.DisplayNameFor(model => model.Telefone)</div> 
+    </div>*@
+
+    @*@Int32 contador = 0;*@
+
+    <h2 style="color: white; ">Principais ecopontos de São Paulo</h2>
+
+    <br />
+    
+    @foreach (var item in Model)
+    {
+
+        <div class="card" style="width: 30em; margin: 10px; margin-bottom: 30px;">
+            <div class="card-header"><strong>@Html.DisplayFor(modelItem => item.Nome)</strong></div>
+            <img src="~/images/EcoImg3.jpg" class="card-img-top" alt="..."> 
+            <div class="card-body">
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                <a href="@Html.DisplayFor(modelItem => item.WebSite)" class="btn btn-primary" style="background-color: #333333; ">Acesse o site</a>
+            </div>
+            <div class="card-footer">@Html.DisplayFor(modelItem => item.Telefone)</div>
+        </div>
+    }
+
+</div>
+
+</div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    $('.card').hover(
+        function()
+        {
+            $(this).animate({
+                marginTop: "-=1%",
+                marginBottom: "+=1%",
+            }, 200)
+        },
+    function()
+        {
+            $(this).animate({
+                marginTop: "+=1%",
+                marginBottom: "-=1%",
+            })
+        }
+    )
+
+</script>
+
+<style>
+    .card:hover {
+        box-shadow: -1px 9px 40px -12px #808080;
+    }
+</style>
